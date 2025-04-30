@@ -1,12 +1,44 @@
-# React + Vite
+# 📝 Custom Note Service
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A lightweight, local-first note-taking app built with **React 20**, **Vite**, and **Tailwind CSS**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- React 20 with modern hooks and JSX
+- Vite for fast development and builds
+- Notes stored in browser `localStorage`
+- Tailwind CSS for utility-first styling
+- Simple "Add" / "View" toggle navigation
+- Form validation and save feedback
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Setup & Run
+
+cd custom-note-service
+npm install # Install dependencies
+npm run dev # Start local dev server
+
+npm install -D tailwindcss@3 postcss autoprefixer #Tailwind was installed
+npx tailwindcss init -p #Tailwind configured
+
+npm run build # Build for production
+npm run preview #review production build
+npm run lint #Run linter
+
+Storage: LocalStorage keeps notes persisted without backend
+
+Components: Separation of Add/View keeps logic modular
+
+State: useState/useEffect provides local control with minimal code
+
+Styling: Tailwind enables fast, scalable UI with no custom CSS
+
+Navigation: View toggling by state avoids React Router complexity
+
+✍️ Author
+Created with ❤️ by Ramchandra Siddh
+
+Would you like this saved as a `README.md` file to include directly in your project folder?

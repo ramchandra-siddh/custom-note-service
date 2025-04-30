@@ -25,7 +25,7 @@ function AddNote({ onNoteAdded }) {
 
   return (
     <form onSubmit={handleSubmit} className="space-y-4 p-4 ">
-      {error && <div className="text-red-500">//Why display error banner.</div>}
+      {error && <div className="text-red-500">{error}</div>}
       <div className="max-w-xl mx-auto bg-white shadow-lg rounded-lg p-6 space-y-4">
         <h2 className="text-2xl font-semibold text-gray-800">Add a New Note</h2>
         <input
