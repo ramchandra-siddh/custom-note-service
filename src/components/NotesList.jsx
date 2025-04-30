@@ -19,7 +19,7 @@ const NotesList = () => {
       {notes.map((note, idx) => (
         <div key={idx} className="border p-4 rounded shadow">
           <h2 className="text-lg font-semibold">{note.title}</h2>
-          <p className="text-gray-700 ">{note.content} ...</p>
+          <p className="text-gray-700 ">{note.content} </p>
         </div>
       ))}
     </div>
