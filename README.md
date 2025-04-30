@@ -17,15 +17,15 @@ A lightweight, local-first note-taking app built with **React 20**, **Vite**, an
 
 ## 🛠️ Setup & Run
 
-cd custom-note-service
-npm install # Install dependencies
-npm run dev # Start local dev server
+cd custom-note-service<br/>
+npm install # Install dependencies <br/>
+npm run dev # Start local dev server<br/>
 
-npm install -D tailwindcss@3 postcss autoprefixer #Tailwind was installed
-npx tailwindcss init -p #Tailwind configured
+npm install -D tailwindcss@3 postcss autoprefixer #Tailwind was installed<br/>
+npx tailwindcss init -p #Tailwind configured<br/>
 
-npm run build # Build for production
-npm run preview #review production build
+npm run build # Build for production<br/>
+npm run preview #review production build<br/>
 npm run lint #Run linter
 
 Storage: LocalStorage keeps notes persisted without backend
